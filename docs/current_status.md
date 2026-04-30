@@ -27,14 +27,14 @@ loop end to end.
 
 ## Important Files
 
-- Core interfaces: [src/lib.rs](/Users/zarkobizaca/code/New%20project/src/lib.rs)
-- Config/message types: [src/config.rs](/Users/zarkobizaca/code/New%20project/src/config.rs)
-- High-level runtime session: [src/runtime.rs](/Users/zarkobizaca/code/New%20project/src/runtime.rs)
-- Sequential session helper: [src/sequential.rs](/Users/zarkobizaca/code/New%20project/src/sequential.rs)
-- Continuous optimizer: [src/continuous.rs](/Users/zarkobizaca/code/New%20project/src/continuous.rs)
-- Interface design notes: [docs/interface_design.md](/Users/zarkobizaca/code/New%20project/docs/interface_design.md)
-- Validation coverage: [tests/validation_suite.rs](/Users/zarkobizaca/code/New%20project/tests/validation_suite.rs)
-- Example loop: [examples/interactive_mapping.rs](/Users/zarkobizaca/code/New%20project/examples/interactive_mapping.rs)
+- Core interfaces: [src/lib.rs](/Users/zarkobizaca/code/optimization/boed/src/lib.rs)
+- Config/message types: [src/config.rs](/Users/zarkobizaca/code/optimization/boed/src/config.rs)
+- High-level runtime session: [src/runtime.rs](/Users/zarkobizaca/code/optimization/boed/src/runtime.rs)
+- Sequential session helper: [src/sequential.rs](/Users/zarkobizaca/code/optimization/boed/src/sequential.rs)
+- Continuous optimizer: [src/continuous.rs](/Users/zarkobizaca/code/optimization/boed/src/continuous.rs)
+- Interface design notes: [docs/interface_design.md](/Users/zarkobizaca/code/optimization/boed/docs/interface_design.md)
+- Validation coverage: [tests/validation_suite.rs](/Users/zarkobizaca/code/optimization/boed/tests/validation_suite.rs)
+- Example loop: [examples/interactive_mapping.rs](/Users/zarkobizaca/code/optimization/boed/examples/interactive_mapping.rs)
 
 ## Where We Left Off
 

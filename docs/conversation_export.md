@@ -1,7 +1,7 @@
 # Conversation Export
 
 Date context: 2026-04-24  
-Workspace: `/Users/zarkobizaca/code/New project`
+Workspace: `/Users/zarkobizaca/code/optimization/boed`
 
 ## Summary
 
@@ -76,11 +76,11 @@ Implemented the BOED correctness fixes:
 
 Files changed:
 
-- [src/utility.rs](/Users/zarkobizaca/code/New%20project/src/utility.rs)
-- [src/estimator.rs](/Users/zarkobizaca/code/New%20project/src/estimator.rs)
-- [src/model.rs](/Users/zarkobizaca/code/New%20project/src/model.rs)
-- [README.md](/Users/zarkobizaca/code/New%20project/README.md)
-- [tests/boed_smoke.rs](/Users/zarkobizaca/code/New%20project/tests/boed_smoke.rs)
+- [src/utility.rs](/Users/zarkobizaca/code/optimization/boed/src/utility.rs)
+- [src/estimator.rs](/Users/zarkobizaca/code/optimization/boed/src/estimator.rs)
+- [src/model.rs](/Users/zarkobizaca/code/optimization/boed/src/model.rs)
+- [README.md](/Users/zarkobizaca/code/optimization/boed/README.md)
+- [tests/boed_smoke.rs](/Users/zarkobizaca/code/optimization/boed/tests/boed_smoke.rs)
 
 Verification:
 
@@ -120,12 +120,12 @@ Implemented continuous interactive design support and a validation suite:
 
 Files added or changed:
 
-- [src/continuous.rs](/Users/zarkobizaca/code/New%20project/src/continuous.rs)
-- [src/error.rs](/Users/zarkobizaca/code/New%20project/src/error.rs)
-- [src/lib.rs](/Users/zarkobizaca/code/New%20project/src/lib.rs)
-- [README.md](/Users/zarkobizaca/code/New%20project/README.md)
-- [examples/interactive_mapping.rs](/Users/zarkobizaca/code/New%20project/examples/interactive_mapping.rs)
-- [tests/validation_suite.rs](/Users/zarkobizaca/code/New%20project/tests/validation_suite.rs)
+- [src/continuous.rs](/Users/zarkobizaca/code/optimization/boed/src/continuous.rs)
+- [src/error.rs](/Users/zarkobizaca/code/optimization/boed/src/error.rs)
+- [src/lib.rs](/Users/zarkobizaca/code/optimization/boed/src/lib.rs)
+- [README.md](/Users/zarkobizaca/code/optimization/boed/README.md)
+- [examples/interactive_mapping.rs](/Users/zarkobizaca/code/optimization/boed/examples/interactive_mapping.rs)
+- [tests/validation_suite.rs](/Users/zarkobizaca/code/optimization/boed/tests/validation_suite.rs)
 
 Verification:
 
@@ -157,11 +157,11 @@ Implemented a sequential BOED session layer:
 
 Files added or changed:
 
-- [src/sequential.rs](/Users/zarkobizaca/code/New%20project/src/sequential.rs)
-- [src/lib.rs](/Users/zarkobizaca/code/New%20project/src/lib.rs)
-- [README.md](/Users/zarkobizaca/code/New%20project/README.md)
-- [examples/interactive_mapping.rs](/Users/zarkobizaca/code/New%20project/examples/interactive_mapping.rs)
-- [tests/validation_suite.rs](/Users/zarkobizaca/code/New%20project/tests/validation_suite.rs)
+- [src/sequential.rs](/Users/zarkobizaca/code/optimization/boed/src/sequential.rs)
+- [src/lib.rs](/Users/zarkobizaca/code/optimization/boed/src/lib.rs)
+- [README.md](/Users/zarkobizaca/code/optimization/boed/README.md)
+- [examples/interactive_mapping.rs](/Users/zarkobizaca/code/optimization/boed/examples/interactive_mapping.rs)
+- [tests/validation_suite.rs](/Users/zarkobizaca/code/optimization/boed/tests/validation_suite.rs)
 
 Verification:
 
@@ -190,7 +190,7 @@ Mentioned use cases:
 
 Created a user-facing interface design document:
 
-- [docs/interface_design.md](/Users/zarkobizaca/code/New%20project/docs/interface_design.md)
+- [docs/interface_design.md](/Users/zarkobizaca/code/optimization/boed/docs/interface_design.md)
 
 The document covered:
 
@@ -211,9 +211,9 @@ types.
 
 Implemented serializable config/message types with `serde` support:
 
-- [src/config.rs](/Users/zarkobizaca/code/New%20project/src/config.rs)
-- [Cargo.toml](/Users/zarkobizaca/code/New%20project/Cargo.toml)
-- [src/lib.rs](/Users/zarkobizaca/code/New%20project/src/lib.rs)
+- [src/config.rs](/Users/zarkobizaca/code/optimization/boed/src/config.rs)
+- [Cargo.toml](/Users/zarkobizaca/code/optimization/boed/Cargo.toml)
+- [src/lib.rs](/Users/zarkobizaca/code/optimization/boed/src/lib.rs)
 
 Added types for:
 
@@ -241,7 +241,7 @@ This referred to building `StudySession::from_config(...)`.
 
 Implemented a high-level runtime entry point:
 
-- [src/runtime.rs](/Users/zarkobizaca/code/New%20project/src/runtime.rs)
+- [src/runtime.rs](/Users/zarkobizaca/code/optimization/boed/src/runtime.rs)
 
 What it supported initially:
 
@@ -252,7 +252,7 @@ What it supported initially:
 
 Added runtime tests and exported `StudySession` from:
 
-- [src/lib.rs](/Users/zarkobizaca/code/New%20project/src/lib.rs)
+- [src/lib.rs](/Users/zarkobizaca/code/optimization/boed/src/lib.rs)
 
 Verification:
 
@@ -280,9 +280,9 @@ Requested option 3, but first asked for the suggested registry refactor.
 Refactored the runtime into a registry-based architecture and added the handoff
 docs:
 
-- [src/runtime.rs](/Users/zarkobizaca/code/New%20project/src/runtime.rs)
-- [docs/current_status.md](/Users/zarkobizaca/code/New%20project/docs/current_status.md)
-- [README.md](/Users/zarkobizaca/code/New%20project/README.md)
+- [src/runtime.rs](/Users/zarkobizaca/code/optimization/boed/src/runtime.rs)
+- [docs/current_status.md](/Users/zarkobizaca/code/optimization/boed/docs/current_status.md)
+- [README.md](/Users/zarkobizaca/code/optimization/boed/README.md)
 
 This changed the runtime from a single hard-coded constructor branch into a
 builder registry, while keeping current behavior the same.
@@ -299,7 +299,7 @@ Verification:
 
 Interpreted it as a placeholder and pointed back to:
 
-- [docs/current_status.md](/Users/zarkobizaca/code/New%20project/docs/current_status.md)
+- [docs/current_status.md](/Users/zarkobizaca/code/optimization/boed/docs/current_status.md)
 
 ### User
 
@@ -309,20 +309,20 @@ Asked to export the conversation as a Markdown document.
 
 Created this file:
 
-- [docs/conversation_export.md](/Users/zarkobizaca/code/New%20project/docs/conversation_export.md)
+- [docs/conversation_export.md](/Users/zarkobizaca/code/optimization/boed/docs/conversation_export.md)
 
 ## Current Project State At Export Time
 
 Key repo artifacts:
 
-- High-level status: [docs/current_status.md](/Users/zarkobizaca/code/New%20project/docs/current_status.md)
-- Interface design: [docs/interface_design.md](/Users/zarkobizaca/code/New%20project/docs/interface_design.md)
-- Config and message types: [src/config.rs](/Users/zarkobizaca/code/New%20project/src/config.rs)
-- Runtime entry point: [src/runtime.rs](/Users/zarkobizaca/code/New%20project/src/runtime.rs)
-- Sequential helper: [src/sequential.rs](/Users/zarkobizaca/code/New%20project/src/sequential.rs)
-- Continuous optimizer: [src/continuous.rs](/Users/zarkobizaca/code/New%20project/src/continuous.rs)
-- Validation tests: [tests/validation_suite.rs](/Users/zarkobizaca/code/New%20project/tests/validation_suite.rs)
-- Interactive example: [examples/interactive_mapping.rs](/Users/zarkobizaca/code/New%20project/examples/interactive_mapping.rs)
+- High-level status: [docs/current_status.md](/Users/zarkobizaca/code/optimization/boed/docs/current_status.md)
+- Interface design: [docs/interface_design.md](/Users/zarkobizaca/code/optimization/boed/docs/interface_design.md)
+- Config and message types: [src/config.rs](/Users/zarkobizaca/code/optimization/boed/src/config.rs)
+- Runtime entry point: [src/runtime.rs](/Users/zarkobizaca/code/optimization/boed/src/runtime.rs)
+- Sequential helper: [src/sequential.rs](/Users/zarkobizaca/code/optimization/boed/src/sequential.rs)
+- Continuous optimizer: [src/continuous.rs](/Users/zarkobizaca/code/optimization/boed/src/continuous.rs)
+- Validation tests: [tests/validation_suite.rs](/Users/zarkobizaca/code/optimization/boed/tests/validation_suite.rs)
+- Interactive example: [examples/interactive_mapping.rs](/Users/zarkobizaca/code/optimization/boed/examples/interactive_mapping.rs)
 
 Latest verified status before export:
 

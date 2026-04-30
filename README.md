@@ -97,8 +97,8 @@ Potential next steps for the crate:
 
 If you are coming back to the project later, start here:
 
-- Current project status: [docs/current_status.md](/Users/zarkobizaca/code/New%20project/docs/current_status.md)
-- User-facing interface design: [docs/interface_design.md](/Users/zarkobizaca/code/New%20project/docs/interface_design.md)
+- Current project status: [docs/current_status.md](/Users/zarkobizaca/code/optimization/boed/docs/current_status.md)
+- User-facing interface design: [docs/interface_design.md](/Users/zarkobizaca/code/optimization/boed/docs/interface_design.md)
 
 Right now the crate has:
 
